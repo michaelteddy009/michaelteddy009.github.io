@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.max-width{
+	max-width: 	130rem;
+	padding: 0 8rem;
+	margin: auto;
+}
+
+/* navbar styling */
+.navbar {
+	position: fixed;
+	width: 100%;
+	padding: 1.5rem 0;
+	background-color: crimson;
+	font-family: "Ubuntu", sans-serif;
+}
+.navbar	.max-width {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar	.logo a {
+	color: #fff;
+	font-size: 3.5rem;
+	font-weight: 600;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a {
+	color: #fff;
+	font-size: 1.8rem;
+	font-weight: 500;
+	margin-left: 2.5rem;
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    background: url("../images/banner.jpg") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
