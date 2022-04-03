@@ -1,0 +1,16 @@
+.header {
+    min-height: 100vh;
+    position: relative;
+
+        
+    &__text-box {
+        position: absolute;
+        top: 14rem;
+        left: 6rem;
+
+        width: 45%;
+        height:auto;
+
+        padding-left: 3rem;
+    }
+}

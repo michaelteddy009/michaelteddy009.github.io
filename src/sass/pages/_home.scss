@@ -1,0 +1,51 @@
+.section {
+    min-height: 95vh;
+    border-top: 1px solid #ddd;
+
+    transition: transform 1s, opacity 1s;
+
+    &__title {
+
+    }
+
+    &__content {
+
+
+        &--portfolio {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: wrap;
+
+
+        }
+    }
+
+    &-contact {
+        background-color: $color-primary;
+        color: $color-white;
+        height: auto;
+        
+
+        h3 {
+            color: $color-white;
+        }
+        p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            line-height: 1.8rem;
+        }
+
+        &__container {
+            width: 40%;
+            margin: 0 auto;
+        }
+    }
+
+
+}
+
+
+
+
+
