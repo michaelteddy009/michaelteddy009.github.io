@@ -1,6 +1,8 @@
 .section {
+    position: relative;
     min-height: 95vh;
     border-top: 1px solid #ddd;
+    padding-top: 7rem;
 
     transition: transform 1s, opacity 1s;
 
@@ -39,6 +41,11 @@
         &__container {
             width: 40%;
             margin: 0 auto;
+
+            @include respond(phone) {
+                width: 90%;
+                margin: 0 auto;
+            }
         }
     }
 

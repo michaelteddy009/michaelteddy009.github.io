@@ -1,0 +1,23 @@
+.section-welcome {
+    position: relative;
+
+        
+    &__text-box {
+        position: absolute;
+        top: 14rem;
+        left: 6rem;
+
+        width: 45%;
+        height:auto;
+
+        padding-left: 3rem;
+
+        @include respond(phone) {
+            position: unset;
+            margin-top: 5rem;
+            padding: 0 3rem;
+            text-align: center;
+            width: 100%
+        }
+    }
+}

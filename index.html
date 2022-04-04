@@ -14,171 +14,191 @@
 </head>
 <body>
 
-    <header class="header" id="section--1">
-	    <div class="navigation">
+	<nav>
+		<input type="checkbox" name="" id="nav-toggle">
+		<div class="logo">MO</div>
+		<ul class="links">
+			<li><a href="#section--1">Welcone</a></li>
+			<li><a href="#section--2">Portfolio</a></li>
+			<li><a href="#section--3">About</a></li>
+			<li><a href="#section--4">Contact</a></li>
+		</ul>
+		<label for="nav-toggle" class="icon-burger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</label>
+	</nav>
+	<!--
+    <header class="navigation">
+	    	<input type="checkbox" id="menu-bar">
+			<label for="menu-bar">Menu</label>
 			<nav class="navigation__nav">
 				<ul class="navigation__list">
 					<li class="navigation__item">
-						<a class="navigation__link">Welcome</a>
+						<a href="#section--1" class="navigation__link">Welcome</a>
 					</li>
 					<li class="navigation__item">
-						<a class="navigation__link">Portfolio</a>
+						<a href="#section--2" class="navigation__link">Portfolio</a>
 					</li>
 					<li class="navigation__item">
-						<a class="navigation__link">About</a>
+						<a href="#section--3" class="navigation__link">About</a>
 					</li>
 					<li class="navigation__item">
-						<a class="navigation__link">Contact</a>
+						<a href="#section--4" class="navigation__link">Contact</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
-		<div class="header__text-box">
+    </header>
+-->
+	
+	<section class="section section-welcome" id="section--1">
+		<div class="section-welcome__text-box">
 				<h1 class="heading-primary--sub">Hi, my name is</h1>
 	            <h1 class="heading-primary--main">Michael Ochara.</h1>
 	            <h1 class="heading-primary--sub u-margin-bottom-medium">I'm a passionate full-stack developer and life-long learner. I specialise in building performant web applications with exceptional digital experiences. Currently open to new opportunities.</h1>	
             
             <a href="#section-tours" class="btn btn--green btn--animated">Get In Touch</a>
-        </div>
-    </header>
-  
-	<main>
-		<section class="section" id="section--2">
+        </div>			
+	</section>
 
-			<div class="section__title u-center-text u-margin-top-big">
-				<h3 class="heading-secondary">Some Things I have Built</h3>
-			</div>
+	<section class="section section-portfolio" id="section--2">
 
-			<div class="section__content section__content--portfolio u-margin-top-medium">
-               <div class="card">
-					<div class="card__picture">
-					    <img src="src/img/food_security.PNG">
-					</div>
-					<div class="card__details">
-						<h4 class="card__heading">Food Security Analysis</h4>
-                        <ul class="card__features--list">
-                        	<li class="card__features--feature">Tableau</li>
-                        </ul>
-					</div>
-   				</div>
+		<div class="section__title u-center-text u-margin-top-big">
+			<h3 class="heading-secondary">Some Things I have Built</h3>
+		</div>
 
-               <div class="card">
-					<div class="card__picture">
-					    <img src="src/img/food_security_analysis.PNG">
-					</div>
-					<div class="card__details">
-						<h4 class="card__heading">Food Security Analysis</h4>
-                        <ul class="card__features--list">
-                        	<li class="card__features--feature">html</li>
-                            <li class="card__features--feature">css/sass</li>
-                            <li class="card__features--feature">javascript</li>
-                            <li class="card__features--feature">react</li>
-                            <li class="card__features--feature">react redux</li>
-                            <li class="card__features--feature">react hooks</li>
-                        </ul>
-					</div>
-   				</div>
+		<div class="section__content section__content--portfolio u-margin-top-medium">
+           <div class="card">
+				<div class="card__picture">
+				    <img src="src/img/food_security.PNG">
+				</div>
+				<div class="card__details">
+					<h4 class="card__heading">Food Security Analysis</h4>
+                    <ul class="card__features--list">
+                    	<li class="card__features--feature">Tableau</li>
+                    </ul>
+				</div>
+				</div>
 
-               <div class="card">
-					<div class="card__picture">
-					    <img src="src/img/food_security_analysis.PNG">
-					</div>
-					<div class="card__details">
-						<h4 class="card__heading">Food Security Analysis</h4>
-                        <ul class="card__features--list">
-                        	<li class="card__features--feature">HTML</li>
-                            <li class="card__features--feature">css/sass</li>
-                            <li class="card__features--feature">javascript</li>
-                            <li class="card__features--feature">React</li>
-                            <li class="card__features--feature">React Redux</li>
-                            <li class="card__features--feature">React Hooks</li>
-                        </ul>
-					</div>
-   				</div>
+           <div class="card">
+				<div class="card__picture">
+				    <img src="src/img/food_security_analysis.PNG">
+				</div>
+				<div class="card__details">
+					<h4 class="card__heading">Food Security Analysis</h4>
+                    <ul class="card__features--list">
+                    	<li class="card__features--feature">html</li>
+                        <li class="card__features--feature">css/sass</li>
+                        <li class="card__features--feature">javascript</li>
+                        <li class="card__features--feature">react</li>
+                        <li class="card__features--feature">react redux</li>
+                        <li class="card__features--feature">react hooks</li>
+                    </ul>
+				</div>
+				</div>
 
-               <div class="card">
-					<div class="card__picture">
-					    <img src="src/img/food_security_analysis.PNG">
-					</div>
-					<div class="card__details">
-						<h4 class="card__heading">Food Security Analysis</h4>
-                        <ul class="card__features--list">
-                        	<li class="card__features--feature">HTML</li>
-                            <li class="card__features--feature">css/sass</li>
-                            <li class="card__features--feature">javascript</li>
-                            <li class="card__features--feature">React</li>
-                            <li class="card__features--feature">React Redux</li>
-                            <li class="card__features--feature">React Hooks</li>
-                        </ul>
-					</div>
-   				</div>
+           <div class="card">
+				<div class="card__picture">
+				    <img src="src/img/food_security_analysis.PNG">
+				</div>
+				<div class="card__details">
+					<h4 class="card__heading">Food Security Analysis</h4>
+                    <ul class="card__features--list">
+                    	<li class="card__features--feature">HTML</li>
+                        <li class="card__features--feature">css/sass</li>
+                        <li class="card__features--feature">javascript</li>
+                        <li class="card__features--feature">React</li>
+                        <li class="card__features--feature">React Redux</li>
+                        <li class="card__features--feature">React Hooks</li>
+                    </ul>
+				</div>
+				</div>
 
-               <div class="card">
-					<div class="card__picture">
-					    <img src="src/img/food_security_analysis.PNG">
-					</div>
-					<div class="card__details">
-						<h4 class="card__heading">Food Security Analysis</h4>
-                        <ul class="card__features--list">
-                        	<li class="card__features--feature">HTML</li>
-                            <li class="card__features--feature">css/sass</li>
-                            <li class="card__features--feature">javascript</li>
-                            <li class="card__features--feature">React</li>
-                            <li class="card__features--feature">React Redux</li>
-                            <li class="card__features--feature">React Hooks</li>
-                        </ul>
-					</div>
-   				</div>
+           <div class="card">
+				<div class="card__picture">
+				    <img src="src/img/food_security_analysis.PNG">
+				</div>
+				<div class="card__details">
+					<h4 class="card__heading">Food Security Analysis</h4>
+                    <ul class="card__features--list">
+                    	<li class="card__features--feature">HTML</li>
+                        <li class="card__features--feature">css/sass</li>
+                        <li class="card__features--feature">javascript</li>
+                        <li class="card__features--feature">React</li>
+                        <li class="card__features--feature">React Redux</li>
+                        <li class="card__features--feature">React Hooks</li>
+                    </ul>
+				</div>
+				</div>
 
-               <div class="card">
-					<div class="card__picture">
-					    <img src="src/img/food_security_analysis.PNG">
-					</div>
-					<div class="card__details">
-						<h4 class="card__heading">Food Security Analysis</h4>
-                        <ul class="card__features--list">
-                        	<li class="card__features--feature">HTML</li>
-                            <li class="card__features--feature">css/sass</li>
-                            <li class="card__features--feature">javascript</li>
-                            <li class="card__features--feature">React</li>
-                            <li class="card__features--feature">React Redux</li>
-                            <li class="card__features--feature">React Hooks</li>
-                        </ul>
-					</div>
-   				</div>
+           <div class="card">
+				<div class="card__picture">
+				    <img src="src/img/food_security_analysis.PNG">
+				</div>
+				<div class="card__details">
+					<h4 class="card__heading">Food Security Analysis</h4>
+                    <ul class="card__features--list">
+                    	<li class="card__features--feature">HTML</li>
+                        <li class="card__features--feature">css/sass</li>
+                        <li class="card__features--feature">javascript</li>
+                        <li class="card__features--feature">React</li>
+                        <li class="card__features--feature">React Redux</li>
+                        <li class="card__features--feature">React Hooks</li>
+                    </ul>
+				</div>
+				</div>
 
-   			</div>
-   		</section>
-
-               	
-		<section class="section section-about" id="section--3">
-
-			<div class="section__title u-center-text u-margin-top-big">
-				<h3 class="heading-secondary">About Me</h3>
-			</div>
-
-			<div class="about">
+           <div class="card">
+				<div class="card__picture">
+				    <img src="src/img/food_security_analysis.PNG">
+				</div>
+				<div class="card__details">
+					<h4 class="card__heading">Food Security Analysis</h4>
+                    <ul class="card__features--list">
+                    	<li class="card__features--feature">HTML</li>
+                        <li class="card__features--feature">css/sass</li>
+                        <li class="card__features--feature">javascript</li>
+                        <li class="card__features--feature">React</li>
+                        <li class="card__features--feature">React Redux</li>
+                        <li class="card__features--feature">React Hooks</li>
+                    </ul>
+				</div>
+				</div>
 
 			</div>
 		</section>
-		<section class="section section-contact" id="section--4">
-			<div class="section-contact__container u-center-text">
-				<h3 class="heading-secondary u-margin-top-big">Get In Touch</h3>
-				<p>If you have a job offer, ideas for a web app, or feature you are interested in building, leave a message and I'll get back to you!</p>
-				<form class="form-c u-margin-top-small">
-					<div class="form-c__input-area-1">
-						<input class="form-c__input-area-1--input" type="text" name="" placeholder="your name">
-						<input class="form-c__input-area-1--input" type="email" name="" placeholder="your email">	
-					</div>
-					<textarea class="form-c__message u-margin-top-small" placeholder="Message">
-					</textarea>
-					<button class="form-c__button u-margin-top-small">Send Message</button>	
-				</form>
-		
 
-			</div>
-		</section>
-	</main>
+           	
+	<section class="section section-about" id="section--3">
+
+		<div class="section__title u-center-text u-margin-top-big">
+			<h3 class="heading-secondary">About Me</h3>
+		</div>
+
+		<div class="about">
+
+		</div>
+	</section>
+	<section class="section section-contact" id="section--4">
+		<div class="section-contact__container u-center-text">
+			<h3 class="heading-secondary u-margin-top-big">Get In Touch</h3>
+			<p>If you have a job offer, ideas for a web app, or feature you are interested in building, leave a message and I'll get back to you!</p>
+			<form class="form-c u-margin-top-small">
+				<div class="form-c__input-area-1">
+					<input class="form-c__input-area-1--input" type="text" name="" placeholder="your name">
+					<input class="form-c__input-area-1--input" type="email" name="" placeholder="your email">	
+				</div>
+				<textarea class="form-c__message u-margin-top-small" placeholder="Message">
+				</textarea>
+				<button class="form-c__button u-margin-top-small">Send Message</button>	
+			</form>
+	
+
+		</div>
+	</section>
+	
 	<footer>
 		
 	</footer>
